@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>result</h1>
+    {% for post in posts %}
+    <div>
+        <ul>
+            <li>title : {{post.title}}</li>
+            <li>year : {{post.year}}</li>
+            <li>referenceCount : {{post.referenceCount}}</li>
+            <li>citationCount : {{post.citationCount}}</li>
+            <li>influentialCitationCount : {{post.influentialCitationCount}}</li>
+            <li>abstract : {{post.abstract}}</li>
+        </ul>
+    </div>
+    {% endfor %}
+{% endblock %}

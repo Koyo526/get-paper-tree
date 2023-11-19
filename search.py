@@ -21,6 +21,10 @@ class Search():
             print(res.encoding)
             print(res.raise_for_status())
             res_dict = json.loads(res.text)
+            dir = "result.json"
+            data = res_dict	# 任意のdict型変数
+            with open(dir, mode="wt", encoding="utf-8") as f:
+                json.dump(data, f, ensure_ascii=False, indent=2)
             return res_dict
         except ConnectionError as ce:
             print("Connection Error:", ce)
@@ -35,7 +39,6 @@ class Search():
         total = r_dict['total']
         print(f'Total search result: {total}')
         data = r_dict['data']
-        print(data)
         for d in data:
             print('---------------')
             for fi in self.fields:
