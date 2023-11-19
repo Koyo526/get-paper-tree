@@ -2,16 +2,26 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link href="style.css" rel="stylesheet" type="text/css" media="all">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tree Paper Searcher</title>
+    <link rel="stylesheet" href="/static/css/style.css">
 </head>
 <body>
     <header>
-        <div></div>
-    </header>
-    <h1>base.html</h1>
+        <div class="container">
+          <div class="header-left">
+            <a href="/">Paper Tree Searcher</a>
+          </div>
+          <div class="header-right">
+            <a href="#about">About</a>
+            <a href="/search">Search</a>
+            <a href="#contact">Contact</a>
+          </div>
+        </div>
+      </header>
+ 
     {% block content %}
     {% endblock %}
+
 </body>
 </html>

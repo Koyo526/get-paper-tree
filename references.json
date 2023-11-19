@@ -1,0 +1,380 @@
+{
+  "offset": 0,
+  "next": 10,
+  "data": [
+    {
+      "citedPaper": {
+        "paperId": "a4ad929fe26d9b7402f4ed9d53d1ceaea540fea7",
+        "title": "An Autonomous IoT-Based Contact Tracing Platform in a COVID-19 Patient Ward",
+        "abstract": "Since 2020, the coronavirus disease (COVID-19) pandemic has had a substantial impact on all community sectors worldwide, particularly the healthcare sector. Healthcare workers (HCWs) are at risk of COVID-19 infection due to occupational exposure to infectious patients, visitors, and staff. Contact tracing of close physical interaction is an essential control measure, especially in hospitals, to prevent onward transmission during an outbreak event. In this article, we propose an Internet of Thing-based contact tracing system for subject identification, interaction tracking, and data transmission in hospital wards. The system, based on Bluetooth low-energy (BLE) devices, tracks the duration of interactions between different HCWs, and the time each HCW spends within the patient rooms using additional information from proximity sensors in the hallway or on the door frame of the patient room. The collected data are transferred via long-range (LoRa) wireless technology and further analyzed to inform infection prevention activities. The suggested system’s performance is evaluated in a COVID-19 patient ward with both standard and negative pressure isolation rooms, and the current system’s capabilities and future research prospects are briefly discussed.",
+        "year": 2023,
+        "referenceCount": 38,
+        "citationCount": 2,
+        "influentialCitationCount": 0,
+        "isOpenAccess": false,
+        "fieldsOfStudy": [
+          "Medicine"
+        ],
+        "authors": [
+          {
+            "authorId": "2034278402",
+            "name": "A. Rathnayaka"
+          },
+          {
+            "authorId": "77994539",
+            "name": "M. E. Gendy"
+          },
+          {
+            "authorId": "145216099",
+            "name": "Fan Wu"
+          },
+          {
+            "authorId": "144348278",
+            "name": "M. Mamun"
+          },
+          {
+            "authorId": "150294083",
+            "name": "S. Curtis"
+          },
+          {
+            "authorId": "48572464",
+            "name": "Gordon Bingham"
+          },
+          {
+            "authorId": "2849516",
+            "name": "A. Peleg"
+          },
+          {
+            "authorId": "4891084",
+            "name": "A. Stewardson"
+          },
+          {
+            "authorId": "4524772",
+            "name": "M. Yuce"
+          }
+        ]
+      }
+    },
+    {
+      "citedPaper": {
+        "paperId": "7bd6e4f5d9abaf2958927568bf5538155d589298",
+        "title": "A Tri-Model Prediction Approach for COVID-19 ICU Bed Occupancy: A Case Study",
+        "abstract": "The impact of COVID-19 and the pressure it exerts on health systems worldwide motivated this study, which focuses on the case of Greece. We aim to assist decision makers as well as health professionals, by estimating the short to medium term needs in Intensive Care Unit (ICU) beds. We analyse time series of confirmed cases, hospitalised patients, ICU bed occupancy, recovered patients and deaths. We employ state-of-the-art forecasting algorithms, such as ARTXP, ARIMA, SARIMAX, and Multivariate Regression models. We combine these into three forecasting models culminating to a tri-model approach in time series analysis and compare them. The results of this study show that the combination of ARIMA with SARIMAX is more accurate for the majority of the investigated regions in short term 1-week ahead predictions, while Multivariate Regression outperforms the other two models for 2-weeks ahead predictions. Finally, for the medium term 3-weeks ahead predictions the Multivariate Regression and ARIMA with SARIMAX show the best results. We report on Mean Absolute Percentage Error (MAPE), Root Mean Squared Error (RMSE), R-squared (R2), and Mean Absolute Error (MAE) values, for one-week, two-week and three-week ahead predictions for ICU bed requirements. Such timely insights offer new capabilities for efficient management of healthcare resources.",
+        "year": 2023,
+        "referenceCount": 0,
+        "citationCount": 1,
+        "influentialCitationCount": 0,
+        "isOpenAccess": true,
+        "fieldsOfStudy": [
+          "Computer Science"
+        ],
+        "authors": [
+          {
+            "authorId": "2005588",
+            "name": "Nikolaos Stasinos"
+          },
+          {
+            "authorId": "121609659",
+            "name": "Anestis Kousis"
+          },
+          {
+            "authorId": "1742409056",
+            "name": "Vangelis Sarlis"
+          },
+          {
+            "authorId": "78944344",
+            "name": "Aristeidis Mystakidis"
+          },
+          {
+            "authorId": "2785147",
+            "name": "Dimitris Rousidis"
+          },
+          {
+            "authorId": "150261389",
+            "name": "Paraskevas Koukaras"
+          },
+          {
+            "authorId": "1947686",
+            "name": "I. Kotsiopoulos"
+          },
+          {
+            "authorId": "2133997497",
+            "name": "Christos Tjortjis"
+          }
+        ]
+      }
+    },
+    {
+      "citedPaper": {
+        "paperId": "f1f2bdc2757f8944b5d7fd56c652d52aebe41a95",
+        "title": "Smart Health Monitoring System in Intensive Care Unit using Bluetooth Low Energy and Message Queuing Telemetry Transport Protocol",
+        "abstract": "Smart healthcare monitoring is very essential for people who are in the Intensive Care Unit (ICU) in hospitals which provides continuous monitoring of health parameters, which cannot be afforded outside the hospitals. Because of the ever-increasing population of the world, smart health care has become increasingly crucial. The traditional patient-doctor consultation has lost its usefulness. The effective way of monitoring the patient’s health within ICU has great potential to introduce Bluetooth Low Energy (BLE) and Message Queuing Telemetry Transport (MQTT) protocol. The patient’s survival can be improved by the daily care of parameters such as heart rate, Hemodynamic, skin temperature, capillary refill, mental status, etc., which can be wirelessly monitored in smart way using BLE and MQTT. In addition, the Short Message Peer to Peer (SMPP) protocol could also be used for alerting the doctors if the sensor values go to a critical level as per the threshold value. It uses BLE and MQTT in monitoring the health of an ICU patient and also it will compare the ZigBee technology, which is already used in monitoring health parameters in following criteria low power, performance, cost, availability etc., with the proposed method. ZigBee will not support android version which is very important to access the smart phones. But the proposed method can support android version with low power consumption.",
+        "year": 2023,
+        "referenceCount": 15,
+        "citationCount": 1,
+        "influentialCitationCount": 0,
+        "isOpenAccess": false,
+        "fieldsOfStudy": null,
+        "authors": [
+          {
+            "authorId": "2071877322",
+            "name": "K. Ragavan"
+          },
+          {
+            "authorId": "50569442",
+            "name": "R. Ramalakshmi"
+          },
+          {
+            "authorId": "70375890",
+            "name": "V. Srirenganachiyar"
+          },
+          {
+            "authorId": "2211636335",
+            "name": "G.Gnana Priya"
+          },
+          {
+            "authorId": "2211636746",
+            "name": "K. Jeyageetha"
+          }
+        ]
+      }
+    },
+    {
+      "citedPaper": {
+        "paperId": "e245bbe9a363f13b761bd781d7fc67bda9b4f1e1",
+        "title": "Private Backend Server Software-Based Telehealthcare Tracking and Monitoring System",
+        "abstract": "In these recent years, the world has witnessed a kind of social exclusion and the inability to communicate directly due to the Corona Virus Covid 19 (COVID-19) pandemic, and the consequent difficulty of communicating with patients with hospitals led to the need to use modern technology to solve and facilitate the problem of people communicating with each other. healthcare has made many remarkable developments through the Internet of things (IOT) and cloud computing to monitor real-time patients' data, which has enabled many patients' lives to be saved. this paper presents the design and implementation of a Private Backend Server Software based on an IoT health monitoring system concerned emergency medical services utilizing biosensors to detect multivital signs of an individual with an ESP32 microcontroller board and IoT cloud. The device displays the vital data, which is then uploaded to a cloud server for storage and analysis over an IoT network. Vital data is received from the cloud server and shown on the IoT medical client dashboard for remote monitoring. The proposed system allows users to ameliorate healthcare jeopardy and minify its costs by recording, gathering, sharing, and analyzing vast biodata streams such as Intensive Care Units (ICU) (i.e., temperature, heartbeat rate, Oxygen level (CO2), etc.), efficiently in real-time. In this proposal, the data will send from sensors fixed in the patient body to the Web and Mobile App continually in real time for collection and analysis.",
+        "year": 2023,
+        "referenceCount": 0,
+        "citationCount": 3,
+        "influentialCitationCount": 0,
+        "isOpenAccess": true,
+        "fieldsOfStudy": [
+          "Medicine"
+        ],
+        "authors": [
+          {
+            "authorId": "2044573692",
+            "name": "F. Ali"
+          },
+          {
+            "authorId": "2199962731",
+            "name": "Tariq Emad Ali"
+          },
+          {
+            "authorId": "1401069891",
+            "name": "Z. Al-Dahan"
+          }
+        ]
+      }
+    },
+    {
+      "citedPaper": {
+        "paperId": "9f8eaafd177dcd31dee28d4435ee5c4ffd7c3c5d",
+        "title": "The IoT-enabled sustainable reverse supply chain for COVID-19 Pandemic Wastes (CPW)",
+        "abstract": null,
+        "year": 2023,
+        "referenceCount": 113,
+        "citationCount": 18,
+        "influentialCitationCount": 0,
+        "isOpenAccess": true,
+        "fieldsOfStudy": [
+          "Medicine"
+        ],
+        "authors": [
+          {
+            "authorId": "102158719",
+            "name": "Behzad Mosallanezhad"
+          },
+          {
+            "authorId": "1413953163",
+            "name": "Fatemeh Gholian-Jouybari"
+          },
+          {
+            "authorId": "1399157902",
+            "name": "L. Cárdenas-Barrón"
+          },
+          {
+            "authorId": "2261956912",
+            "name": "Mostafa Hajiaghaei-Keshteli"
+          }
+        ]
+      }
+    },
+    {
+      "citedPaper": {
+        "paperId": "14e62a4603ee26f4f058fe289eb3877ec8c4dc60",
+        "title": "ROMI: A Real-Time Optical Digit Recognition Embedded System for Monitoring Patients in Intensive Care Units",
+        "abstract": "With advances in the Internet of Things, patients in intensive care units are constantly monitored to expedite emergencies. Due to the COVID-19 pandemic, non-face-to-face monitoring has been required for the safety of patients and medical staff. A control center monitors the vital signs of patients in ICUs. However, some medical devices, such as ventilators and infusion pumps, operate in a standalone fashion without communication capabilities, requiring medical staff to check them manually. One promising solution is to use a robotic system with a camera. We propose a real-time optical digit recognition embedded system called ROMI. ROMI is a mobile robot that monitors patients by recognizing digits displayed on LCD screens of medical devices in real time. ROMI consists of three main functions for recognizing digits: digit localization, digit classification, and digit annotation. We developed ROMI by using Matlab Simulink, and the maximum digit recognition performance was 0.989 mAP on alexnet. The developed system was deployed on NVIDIA GPU embedded platforms: Jetson Nano, Jetson Xavier NX, and Jetson AGX Xavier. We also created a benchmark by evaluating the runtime performance by considering ten pre-trained CNN models and three NVIDIA GPU platforms. We expect that ROMI will support medical staff with non-face-to-face monitoring in ICUs, enabling more effective and prompt patient care.",
+        "year": 2023,
+        "referenceCount": 63,
+        "citationCount": 1,
+        "influentialCitationCount": 0,
+        "isOpenAccess": true,
+        "fieldsOfStudy": [
+          "Medicine"
+        ],
+        "authors": [
+          {
+            "authorId": "145824816",
+            "name": "Sanghoon Jeon"
+          },
+          {
+            "authorId": "4455244",
+            "name": "B. Ko"
+          },
+          {
+            "authorId": "1806873",
+            "name": "S. Son"
+          }
+        ]
+      }
+    },
+    {
+      "citedPaper": {
+        "paperId": "2d37259aa8337f71533d07aabce20da609b53794",
+        "title": "Low-Cost IOT Based Healthcare Management System In Remote Areas",
+        "abstract": "The Internet of Things (IoT) is a developing domain in the current scenario. It has evolved over many areas of different fields of technology. Many studies have been conducted for the enrichment of this particular domain. Today, smart watches have the features to collect data related to the health of the person who wears it. So it is possible to make a health detection system. These features, like reduction in cost and wireless transmission of data, can both be implemented via this domain. The country also faced an issue with the availability of oxygen beds and ICU beds. This was one of the biggest issues at the time of epidemics. There is a shortage of medical equipment as well as the affordability of good meditation. So to mitigate these issues, we are coming up with the idea of a low-cost ICU bed in remote areas using LoRa. LoRa module helps in the transmission of health related data from an area having no internet facility to the receiver side. The doctor in charge can see this and instruct the patient if they need to take any sort of remedy or not. The designing and implementation of our new research work will put forward an efficient and low-cost health monitoring system in remote areas.",
+        "year": 2022,
+        "referenceCount": 12,
+        "citationCount": 1,
+        "influentialCitationCount": 0,
+        "isOpenAccess": false,
+        "fieldsOfStudy": null,
+        "authors": [
+          {
+            "authorId": "2206349029",
+            "name": "Arjun Krishna J G"
+          },
+          {
+            "authorId": "2219614733",
+            "name": "Aparna V"
+          },
+          {
+            "authorId": "2206365828",
+            "name": "Ajil Varghese"
+          },
+          {
+            "authorId": "2206805548",
+            "name": "Don Sebastian"
+          },
+          {
+            "authorId": "2142541140",
+            "name": "Neenu Johnson"
+          }
+        ]
+      }
+    },
+    {
+      "citedPaper": {
+        "paperId": "ec148ba744570fd6311c7d128bb9915adf687f89",
+        "title": "An Enhanced Malware Detection Approach using Machine Learning and Feature Selection",
+        "abstract": "On the basis of current analysis, the fact that cybersecurity has become a major issue with the advancement of technology cannot be ignored. Malware is one of those serious security adversaries, which can easily evade the prevalent traditional methods of detection such as Signature Matching. Since malware is constantly evolving, it is a herculean task to identify new malware using traditional methods. Machine learning models are more effective in identifying malware. Here, the performance of Artificial Intelligence based models such as Random forest, K-Nearest Neighbours (KNN) and XGBoost with and without the effect of appropriate feature selection algorithms are compared and discussed. Feature selection algorithms which are used here are namely Boruta and Analysis Of Variance (ANOVA). Random Forest leverages Boruta as the feature selector and additionally a feature ranker whereas KNN is coupled with the feature selection algorithm ANOVA. Feature selection is nifty, as it reduces the dimensionality of the dataset significantly. Some redundant features can be successfully eliminated through feature selection without human intervention. Feature selection also reduces overfitting and furthermore renders the model to be more explainable and interpretable. The performance of the mentioned models coupled with feature selection are weighed-up using performance metrics. The varying importance of different features for a malware classification of a Windows portable executable (PE) file over time is also studied. Since malware evolve over time it’s important to know the variable responsible for it. Though many machine learning models are able to identify malware it’s important that they aid in explainability as well. Thus the paper focuses upon the models and features that additionally improve explainability. The results obtained through experiments show that, with as minimum as 27 features of a portable executable file, a machine learning model can detect malware effectively.",
+        "year": 2022,
+        "referenceCount": 14,
+        "citationCount": 1,
+        "influentialCitationCount": 0,
+        "isOpenAccess": false,
+        "fieldsOfStudy": null,
+        "authors": [
+          {
+            "authorId": "2185623933",
+            "name": "Srastika"
+          },
+          {
+            "authorId": "2185627935",
+            "name": "Nanditha Bhandary"
+          },
+          {
+            "authorId": "2185656969",
+            "name": "Shalakha R S"
+          },
+          {
+            "authorId": "89474636",
+            "name": "Prasad B. Honnavalli"
+          },
+          {
+            "authorId": "2185626103",
+            "name": "Sivaraman E"
+          }
+        ]
+      }
+    },
+    {
+      "citedPaper": {
+        "paperId": "0fd386ebfe86365957d72526a9d9d056dbd078e2",
+        "title": "Enhancing the energy efficiency for prolonging the network life time in multi-conditional multi-sensor based wireless sensor network",
+        "abstract": null,
+        "year": 2022,
+        "referenceCount": 8,
+        "citationCount": 4,
+        "influentialCitationCount": 0,
+        "isOpenAccess": false,
+        "fieldsOfStudy": null,
+        "authors": [
+          {
+            "authorId": "2006055672",
+            "name": "Raviteja Kocherla"
+          },
+          {
+            "authorId": "2245469371",
+            "name": "M. Chandra Sekhar"
+          },
+          {
+            "authorId": "72304203",
+            "name": "Ramesh Vatambeti"
+          }
+        ]
+      }
+    },
+    {
+      "citedPaper": {
+        "paperId": "eec265bb7ebdff2665a9e09920ff8988197c54f7",
+        "title": "Machine learning model for predicting the length of stay in the intensive care unit for Covid-19 patients in the eastern province of Saudi Arabia",
+        "abstract": null,
+        "year": 2022,
+        "referenceCount": 54,
+        "citationCount": 13,
+        "influentialCitationCount": 0,
+        "isOpenAccess": true,
+        "fieldsOfStudy": [
+          "Medicine"
+        ],
+        "authors": [
+          {
+            "authorId": "2044984212",
+            "name": "Dina A. Alabbad"
+          },
+          {
+            "authorId": "3432984",
+            "name": "A. Almuhaideb"
+          },
+          {
+            "authorId": "122831629",
+            "name": "Shikah J. Alsunaidi"
+          },
+          {
+            "authorId": "1994535790",
+            "name": "Kawther S. Alqudaihi"
+          },
+          {
+            "authorId": "1430974336",
+            "name": "F. Alamoudi"
+          },
+          {
+            "authorId": "2159670185",
+            "name": "Maha K. Alhobaishi"
+          },
+          {
+            "authorId": "2159670192",
+            "name": "Naimah A. Alaqeel"
+          },
+          {
+            "authorId": "2239912215",
+            "name": "Mohammed S. Alshahrani"
+          }
+        ]
+      }
+    }
+  ]
+}

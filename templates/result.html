@@ -1,16 +1,17 @@
 {% extends "base.html" %}
 {% block content %}
-<h1>result</h1>
+<h1>Result</h1>
     {% for post in posts %}
     <div id = "{{posts.paperId}}">
-        <ul>
+        <ul class = "result-row">
             <li>title : {{post.title}}</li>
             <li>year : {{post.year}}</li>
             <li>referenceCount : {{post.referenceCount}}</li>
             <li>citationCount : {{post.citationCount}}</li>
             <li>influentialCitationCount : {{post.influentialCitationCount}}</li>
             <li>abstract : {{post.abstract}}</li>
-            <a href="/result/{{post.paperId}}" role="button"  id = "Citation_buttun" >Citation</a>
+            <a href="/result/{{post.paperId}}/citation" role="button"  id = "Citation_button" >Citation</a>
+            <a href="/result/{{post.paperId}}/reference" role="button"  id = "reference_button" >Reference</a>
         </ul>
     </div>
     {% endfor %}

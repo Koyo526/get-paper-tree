@@ -1,4 +1,73 @@
 {
   "offset": 0,
-  "data": []
+  "data": [
+    {
+      "citingPaper": {
+        "paperId": "902828a669cb11d84004471296558fddc65080a1",
+        "title": "An IoT-Based CNN Model for Patients in ICU Beds During the COVID-19 Outburst",
+        "abstract": "The rising number of hospital admissions is a worldwide cause for alarm, with major contributors being an ageing population, the prevalence of diseases, and the current COVID-19 epidemic. IoT provides the scalability necessary for this determination, enabling incessant and reliable health monitoring on a worldwide scale, and therefore easing this difficulty. The COVID-19 virus has quickly disseminated all across the globe. Healthcare practitioners around the world face a number of difficulties during the epidemic, one of the most significant being the management of available resources. Since disease, approximately patients will need to be self-confessed to the hospital with an immediate need for oxygen acute medical care, making it crucial to properly allocate the beds in the (ICU). Many nations' efforts to stop the spread of the deadly COVID-19 virus relied heavily on technology, especially Artificial Intelligence (AI). In this research, we modify a (CNN) to better detect the requirement for the ICU and the predicted length of stay among COVID-19 patients. A 895 patients and evaluate the CNN with Sun flower Optimization (SFO). The results of the studies disclose that the projected perfect for predicting ICU Length of Stay (LoS) achieves the maximum accuracy. It is believed that this contribution would pave the way for better resource management in healthcare institutions, ultimately leading to the saving of lives.",
+        "year": 2023,
+        "referenceCount": 26,
+        "citationCount": 0,
+        "influentialCitationCount": 0,
+        "isOpenAccess": false,
+        "fieldsOfStudy": null,
+        "authors": [
+          {
+            "authorId": "2146731163",
+            "name": "Parameshachari B D"
+          },
+          {
+            "authorId": "2243998110",
+            "name": "Chethana Srinivas"
+          },
+          {
+            "authorId": "2243995575",
+            "name": "R. H"
+          },
+          {
+            "authorId": "2243998662",
+            "name": "Harshitha P"
+          },
+          {
+            "authorId": "2243995127",
+            "name": "Deepak R"
+          }
+        ]
+      }
+    },
+    {
+      "citingPaper": {
+        "paperId": "79d59be7f5ae3b981e8766c43380d4e13634a6ef",
+        "title": "Comparing Efficiency and Performance of IoT BLE and RFID-Based Systems for Achieving Contract Tracing to Monitor Infection Spread among Hospital and Office Staff",
+        "abstract": "COVID-19 is highly contagious and spreads rapidly; it can be transmitted through coughing or contact with virus-contaminated hands, surfaces, or objects. The virus spreads faster indoors and in crowded places; therefore, there is a huge demand for contact tracing applications in indoor environments, such as hospitals and offices, in order to measure personnel proximity while placing as little load on them as possible. Contact tracing is a vital step in controlling and restricting pandemic spread; however, traditional contact tracing is time-consuming, exhausting, and ineffective. As a result, more research and application of smart digital contact tracing is necessary. As the Internet of Things (IoT) and wearable sensor device studies have grown in popularity, this work has been based on the practicality and successful implementation of Bluetooth low energy (BLE) and radio frequency identification (RFID) IoT based wireless systems for achieving contact tracing. Our study presents autonomous, low-cost, long-battery-life wireless sensing systems for contact tracing applications in hospital/office environments; these systems are developed with off-the-shelf components and do not rely on end user participation in order to prevent any inconvenience. Performance evaluation of the two implemented systems is carried out under various real practical settings and scenarios; these two implemented centralised IoT contact tracing devices were tested and compared demonstrating their efficiency results.",
+        "year": 2023,
+        "referenceCount": 81,
+        "citationCount": 1,
+        "influentialCitationCount": 0,
+        "isOpenAccess": true,
+        "fieldsOfStudy": [
+          "Medicine"
+        ],
+        "authors": [
+          {
+            "authorId": "77994539",
+            "name": "M. E. Gendy"
+          },
+          {
+            "authorId": "145057785",
+            "name": "Philip Tham"
+          },
+          {
+            "authorId": "2203201819",
+            "name": "Flynn Harrison"
+          },
+          {
+            "authorId": "4524772",
+            "name": "M. Yuce"
+          }
+        ]
+      }
+    }
+  ]
 }

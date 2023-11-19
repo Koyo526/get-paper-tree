@@ -10,6 +10,7 @@ from reference import Reference
 
 app = Flask(__name__)
 
+
 @app.route("/",methods = ['GET', 'POST'])
 def index():
     return render_template('index.html')
@@ -36,8 +37,8 @@ def result():
         posts = dic["data"]
         return render_template('result.html',posts = posts)
 
-@app.route("/result/<paperId>",methods = ['GET', 'POST'])
-def result_id(paperId):
+@app.route("/result/<paperId>/citation",methods = ['GET', 'POST'])
+def citation(paperId):
     if request.method == "GET":
         S = Citation(paperId) 
         dic = S.search_citing_papers()
@@ -52,14 +53,18 @@ def result_id(paperId):
     else:
         return render_template('search.html')
 
-@app.route("/reference",methods = ['GET', 'POST'])
-def reference():
-    if request.method == "POST":
-        text = request.form.get('text')
-        print(text)
-        S = Reference(text) 
+@app.route("/result/<paperId>/reference",methods = ['GET', 'POST'])
+def reference(paperId):
+    if request.method == "GET":
+        S = Reference(paperId) 
         dic = S.search_refer_papers()
         S.print_refer_papers(dic)
-        return redirect('/result')
+        dir = "references.json"
+        encoding = "utf-8"	# 読み込むファイルのエンコードによって適宜変える。
+        with open(dir, mode="rt", encoding="utf-8") as f:
+            dic = json.load(f)		# JSONのファイル内容をdictに変換する。
+        data = dic["data"]
+        posts = [d['citedPaper'] for d in data]
+        return render_template('result.html',posts = posts)
     else:
         return render_template('search.html')

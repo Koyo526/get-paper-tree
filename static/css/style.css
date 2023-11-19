@@ -1,0 +1,133 @@
+header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(34, 49, 52, 0.9);
+    top: 0;
+    margin: 0;
+}
+.header-left{
+    float: left;
+}
+.header-right{
+    float: right;
+}
+.header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+}
+.header-right a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+.header-left a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+}
+.header-left a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+.content{
+    display: block;
+}
+
+.search a{
+        transition: color 0.3s;
+        width: 80%;
+        margin: 0 auto;
+        max-width: 500px;
+}
+
+.search a:hover{
+    color : #ff7043;
+}
+
+.search h2{
+    width: 80%;
+    margin: 0 auto;
+    max-width: 500px;
+}
+
+
+.contact {
+    width: 960px;/*横幅*/
+    margin: 0 auto;/*中央寄せ*/
+    padding: 60px 0;
+}
+.contact-ttl{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.contact-table {
+    width: 100%;
+    margin-bottom: 20px;
+}
+* {
+    box-sizing: border-box;
+}
+  
+body {
+    color: #333;
+    font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+}
+.contact-item,.contact-body {
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+  
+.contact-item {
+    text-align: left; /* テキスト左寄せ */
+    width: 30%; /* 横幅30%指定（グレーの背景色部分） */
+    background-color: #eee; /* グレーの背景色 */
+}
+  
+.contact-body {
+    width: 70%; /* 横幅70%指定（白背景色部分） */
+}
+.form-text {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    max-width: 400px;
+}
+.form-textarea {
+    width: 100%;
+    padding: 10px;
+    height: 200px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  }
+.contact-submit {
+    width: 250px; /* 横幅指定 */
+    background-color: #333; /* 背景色 */
+    color: #fff; /* 文字色 */
+    font-weight: bold; /* 文字の太さ */
+    display: block; /* インライン要素をブロック要素に変更 */
+    margin: 0 auto; /* 中央寄せ */
+    font-size: 16px; /* 文字の大きさ */
+    padding: 15px; /* 内側の余白 */
+    border-radius: 100vh; /* 角丸指定 */
+    border: none;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    cursor: pointer;
+}
+.result-row a{
+    margin: auto 5px;
+}
