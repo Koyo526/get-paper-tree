@@ -10,8 +10,7 @@
             <li>citationCount : {{post.citationCount}}</li>
             <li>influentialCitationCount : {{post.influentialCitationCount}}</li>
             <li>abstract : {{post.abstract}}</li>
-            <a href="/citation" role="button" id = "Citation_buttun" >Citation</a>
-            <a href="/reference" role="button" id = "Reference_buttun">Reference</a>
+            <a href="/result/{{post.paperId}}" role="button"  id = "Citation_buttun" >Citation</a>
         </ul>
     </div>
     {% endfor %}

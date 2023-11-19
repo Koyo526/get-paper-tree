@@ -5,6 +5,8 @@ from datetime import datetime
 import pytz
 from search import Search
 import json
+from citation import Citation
+from reference import Reference
 
 app = Flask(__name__)
 
@@ -23,6 +25,7 @@ def search():
         return redirect('/result')
     else:
         return render_template('search.html')
+
 @app.route("/result",methods = ['GET', 'POST'])
 def result():
     if request.method == "GET":
@@ -32,3 +35,31 @@ def result():
             dic = json.load(f)		# JSONのファイル内容をdictに変換する。
         posts = dic["data"]
         return render_template('result.html',posts = posts)
+
+@app.route("/result/<paperId>",methods = ['GET', 'POST'])
+def result_id(paperId):
+    if request.method == "GET":
+        S = Citation(paperId) 
+        dic = S.search_citing_papers()
+        S.print_citing_papers(dic)
+        dir = "citations.json"
+        encoding = "utf-8"	# 読み込むファイルのエンコードによって適宜変える。
+        with open(dir, mode="rt", encoding="utf-8") as f:
+            dic = json.load(f)		# JSONのファイル内容をdictに変換する。
+        data = dic["data"]
+        posts = [d['citingPaper'] for d in data]
+        return render_template('result.html',posts = posts)
+    else:
+        return render_template('search.html')
+
+@app.route("/reference",methods = ['GET', 'POST'])
+def reference():
+    if request.method == "POST":
+        text = request.form.get('text')
+        print(text)
+        S = Reference(text) 
+        dic = S.search_refer_papers()
+        S.print_refer_papers(dic)
+        return redirect('/result')
+    else:
+        return render_template('search.html')
