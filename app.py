@@ -26,7 +26,7 @@ def search():
 @app.route("/result",methods = ['GET', 'POST'])
 def result():
     if request.method == "GET":
-        dir = "result.json"
+        dir = "results.json"
         encoding = "utf-8"	# 読み込むファイルのエンコードによって適宜変える。
         with open(dir, mode="rt", encoding="utf-8") as f:
             dic = json.load(f)		# JSONのファイル内容をdictに変換する。

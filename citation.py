@@ -1,6 +1,8 @@
 import requests
 import json
 from requests.exceptions import RequestException, ConnectionError, HTTPError, Timeout
+from urllib3.util import Retry
+from requests.adapters import HTTPAdapter
 
 class Citation():
     def __init__(self,id):
@@ -15,12 +17,18 @@ class Citation():
         
     def search_citing_papers(self):
         try:
-            res = requests.get(url=self.endpoint, params=self.params)
-            print(res)
+            session = requests.Session()
+            retries = Retry(total=5,backoff_factor=1,status_forcelist=[500, 502, 503, 504]) 
+            session.mount("https://", HTTPAdapter(max_retries=retries))
+            res = session.get(url=self.endpoint, params=self.params,stream=True,timeout=(10.0, 30.0))
             print(res.status_code)
             print(res.encoding)
             print(res.raise_for_status())
             res_dict = json.loads(res.text)
+            dir = "citations.json"
+            data = res_dict	# 任意のdict型変数
+            with open(dir, mode="wt", encoding="utf-8") as f:
+                json.dump(data, f, ensure_ascii=False, indent=2)
             return res_dict
         except ConnectionError as ce:
             print("Connection Error:", ce)
