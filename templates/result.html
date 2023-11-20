@@ -2,16 +2,16 @@
 {% block content %}
 <h1>Result</h1>
     {% for post in posts %}
-    <div id = "{{posts.paperId}}">
+    <div id = "{{posts.paperId}}" class = "result">
         <ul class = "result-row">
-            <li>title : {{post.title}}</li>
-            <li>year : {{post.year}}</li>
-            <li>referenceCount : {{post.referenceCount}}</li>
-            <li>citationCount : {{post.citationCount}}</li>
-            <li>influentialCitationCount : {{post.influentialCitationCount}}</li>
-            <li>abstract : {{post.abstract}}</li>
-            <a href="/result/{{post.paperId}}/citation" role="button"  id = "Citation_button" >Citation</a>
-            <a href="/result/{{post.paperId}}/reference" role="button"  id = "reference_button" >Reference</a>
+            <li><b>Title</b> : {{post.title}}</li>
+            <li><b>Year</b> : {{post.year}}</li>
+            <li><b>ReferenceCount</b> : {{post.referenceCount}}</li>
+            <li><b>CitationCount</b> : {{post.citationCount}}</li>
+            <li><b>InfluentialCitationCount</b> : {{post.influentialCitationCount}}</li>
+            <li><b>Abstract</b> <br> {{post.abstract}}</li>
+            <a href="/result/{{post.paperId}}/citation" role="button"  class = "Citation_button" >Citation</a>
+            <a href="/result/{{post.paperId}}/reference" role="button" class = "reference_button" >Reference</a>
         </ul>
     </div>
     {% endfor %}

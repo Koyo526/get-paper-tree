@@ -39,19 +39,10 @@ header {
 
 .search a{
         transition: color 0.3s;
-        width: 80%;
-        margin: 0 auto;
-        max-width: 500px;
 }
 
 .search a:hover{
     color : #ff7043;
-}
-
-.search h2{
-    width: 80%;
-    margin: 0 auto;
-    max-width: 500px;
 }
 
 
@@ -131,3 +122,39 @@ body {
 .result-row a{
     margin: auto 5px;
 }
+
+/* スタイルの適用 */
+.result{
+    /* ここに適切なスタイルを追加してください */
+    /* 例: バックグラウンドカラー、マージン、パディングなど */
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  ul.result-row {
+    list-style: none;
+    padding: 0;
+  }
+  
+  ul.result-row li {
+    margin-bottom: 10px;
+  }
+  
+  .Citation_button,
+  .reference_button {
+    display: inline;
+    margin-top: 20px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    text-align: center;
+  }
+  
+  .Citation_button:hover,
+  .reference_button:hover {
+    background-color: #0056b3;
+  }
+  
