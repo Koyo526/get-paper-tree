@@ -34,15 +34,46 @@ header {
     background-color: rgba(255, 255, 255, 0.3);
 }
 .content{
-    display: block;
+    text-align: center;
+}
+.about-ttl{
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.about-us{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.about-comment{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.search{
+    text-align: center;
+}
+.search-ttl{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.search-button{
+  display: inline-block;
+  padding: 5px 10px;
+  margin: 0 40;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  text-align: center;
 }
 
-.search a{
-        transition: color 0.3s;
-}
-
-.search a:hover{
-    color : #ff7043;
+.search-button:hover {
+  background-color: #0056b3;
 }
 
 

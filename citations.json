@@ -1,327 +1,54 @@
 {
   "offset": 0,
-  "next": 10,
   "data": [
     {
       "citingPaper": {
-        "paperId": "25ac77d314c401cbf888bb1a0a071b4780f43366",
-        "title": "CNN based Deep Learning Approach for Brain Tumor Detection in MRI Images",
-        "abstract": "A brain tumor must be detected through its initial stages, or it can show some serious symptoms that cannot be treated after it has advanced. Most brain tumors are uncovered only after the first symptoms are seen. Ordinary performance of the human body is severely affected by a brain tumor. Medical image processing (MIP) is crucial to identify and label brain tumors. Magnetic Resonance Imaging (MRI) is widely used for identifying and labelling brain tumors. Classification models built on Deep Learning (DL) architectures have gained popularity in recent years for accurately identifying brain tumors in MR images. The intent of this study is to identify, whether the patient is having brain tumor or not using MRI scans. A DL architecture is showcased in this study for accurately identifying brain tumors in MR images. The dataset employed in this study is publicly accessible from Kaggle and comprises of 3000 images, 1500 of which have tumor and 1500 does not. The showcased architecture has produced phenomenal results in identifying brain tumors compared to various other innovative models given in the past. Various performance metrics like F1 score, recall, precision, and accuracy are employed to test the showcased architecture's performance. This showcased architecture was able to attain 98.66% accuracy in identifying brain tumors.",
+        "paperId": "cd6286188579aeff34ea83ae7f2055f80073f87f",
+        "title": "Research on the Rapid Recognition Method of Electric Bicycles in Elevators Based on Machine Vision",
+        "abstract": "People are gradually coming around to the idea of living a low-carbon lifestyle and using green transportation, and given the severe urban traffic congestion, electric bicycle commuting has taken over as the preferred mode of short-distance transportation for many. Since batteries are used to power electric bicycles, there are no greenhouse gas emissions while they are in use, which is more in line with the requirement for sustainable development around the world. The public has been increasingly concerned about the safety issues brought on by electric bicycles as a result of the industry’s quick development and the rapid increase in the number of electric bicycles worldwide. The unsafe operation of the elevator and the safety of the building have been seriously compromised by the unauthorized admission of electric bicycles into the elevator. To meet the need for fast detection and identification of electric bicycles in elevators, we designed a modified YOLOv5-based identification approach in this study. We propose the use of the EIoU loss function to address the occlusion problem in electric bicycle recognition. By considering the interaction ratio and overlap loss of the target frames, we are able to enhance localization accuracy and reduce the missed detection rate of occluded targets. Additionally, we introduce the CBAM attention mechanism in both the backbone and head of YOLOv5 to improve the expressive power of feature maps. This allows the model to prioritize important regions of the target object, leading to improved detection accuracy. Furthermore, we utilize the CARAFE operator during upsampling instead of the nearest operator in the original model. This enables our model to recover details and side information more accurately, resulting in finer sampling results. The experimental results demonstrate that our improved model achieves an mAP of 86.35 percent, a recall of 81.8 percent, and an accuracy of 88.0 percent. When compared to the original model under the same conditions, our improved YOLOv5 model shows an average detection accuracy increase of 3.49 percent, a recall increase of 5.6 percent, and an accuracy increase of 3.5 percent. Tests in application scenarios demonstrate that after putting the model on the hardware platform Jeston TX2 NX, stable and effective identification of electric bicycles can be accomplished.",
         "year": 2023,
-        "referenceCount": 34,
+        "referenceCount": 30,
         "citationCount": 0,
         "influentialCitationCount": 0,
-        "isOpenAccess": false,
+        "isOpenAccess": true,
         "fieldsOfStudy": null,
         "authors": [
           {
-            "authorId": "2166022933",
-            "name": "Abhay Garg"
+            "authorId": "2240341340",
+            "name": "Zhike Zhao"
           },
           {
-            "authorId": "2162974821",
-            "name": "Aditya Chauhan"
+            "authorId": "2240140653",
+            "name": "Songying Li"
           },
           {
-            "authorId": "2219807023",
-            "name": "Amar Sahgal"
+            "authorId": "2240137712",
+            "name": "Caizhang Wu"
           },
           {
-            "authorId": "5970591",
-            "name": "P. G. Shambharkar"
+            "authorId": "2240473923",
+            "name": "Xiaobing Wei"
           }
         ]
       }
     },
     {
       "citingPaper": {
-        "paperId": "8a284ab65737e56f89d641da267ca2cdfd5b97bb",
-        "title": "Self-Adjustable Galvanic Skin Response Sensor for Physiological Monitoring",
-        "abstract": "Continuous physiological monitoring integrated within current wearable devices is a hot topic nowadays. Despite that, measuring physiological variables is still challenging due to intrinsic and extrinsic personal factors. This results in the need for smart, adjustable, and personalized sensing devices. Among the different physiological signals that can be measured, changes in skin conductance are extensively used in affective computing research. This measurement presents an unequivocal relationship with the sympathetic branch of the autonomous nervous system, which relates to emotional reactions. However, there is a lack of self-adjustable skin conductance sensors. This article presents a novel skin conductance analog front end to deal with individual physiological dynamics. We compared the performance of our system with other skin conductance sensor circuits presented in the literature. Moreover, the experimental results in this work come from the data collected in 47 women volunteers and are compared with the measurements with a reference physiological sensing system commonly used for validations. Finally, our system presents a competitive averaged sensitivity for a typical human electrodermal activity (EDA) range compared to the current state-of-the-art solutions. Experimental results show that the system achieves an averaged sensitivity of up to 0.33 nS for a range 0–40 $\\mu \\text{S}$ , with a relative error below 1% for fixed-resistance measurements and a 0.94 median correlation coefficient when directly comparing with the reference sensor. Moreover, we extracted and analyzed different physiological features in data from both sensors and obtained comparable results. Finally, this research is intended to boost the design and development of subject-independent and self-adjustable wearable sensors.",
+        "paperId": "1b4b8f6a5c3bdc57d4a5136240414de4e50a60a4",
+        "title": "The Analysis of Tourist Satisfaction Integrating the Artistic Intelligence Convolutional Neural Network and Internet of Things Technology",
+        "abstract": "Aiming at the limitations of existing fire detection technology and the multi-dimensional challenge of tourist satisfaction analysis, this study proposes a series of innovative methods and models. Regarding fire detection, Depth Separable Convolution (DSC) and multi-scale detection structure are introduced to improve the You Only Look Once version 3 (YOLOv3) model. Moreover, the DSC-Anchor-Isoft-Non Maximum Suppression-YOLO (DAI-YOLO) model is implemented for the fire detection of scenic spots. The experimental results show that the precision, recall, and average precision of the DAI-YOLO model are 92.1%, 84.2%, and 84.6%, respectively, compared with other models, a minimum increase of 4.1%, 8.8%, and 6.0%, with higher detection accuracy and performance. Based on the analysis of tourist satisfaction, a comprehensive index system is constructed using the grounded theory of text mining, and emotion analysis is integrated into the satisfaction evaluation to reveal tourists’ evaluation of scenic spots more comprehensively. According to the analysis, the environmental factor receives the highest satisfaction rating, reaching a positive rate of 98.78%. However, the satisfaction evaluation of scenic spot management is relatively low, accounting for 6.06% of the negative evaluation. The importance-satisfaction analysis reveals that the key factors affecting tourist satisfaction are traffic level, scenic spot tickets, and service. The results of this study provide valuable reference for the managers and researchers of scenic spots and are expected to contribute to the construction of a safer and more satisfying tourism experience.",
         "year": 2023,
-        "referenceCount": 47,
-        "citationCount": 0,
-        "influentialCitationCount": 0,
-        "isOpenAccess": false,
-        "fieldsOfStudy": null,
-        "authors": [
-          {
-            "authorId": "2195042175",
-            "name": "J. A. Miranda Calero"
-          },
-          {
-            "authorId": "2166380293",
-            "name": "Alba Páez-Montoro"
-          },
-          {
-            "authorId": "1398733445",
-            "name": "C. López-Ongil"
-          },
-          {
-            "authorId": "145983351",
-            "name": "S. Patón"
-          }
-        ]
-      }
-    },
-    {
-      "citingPaper": {
-        "paperId": "20c2a924ce35477deece635ff93a3de05878b88e",
-        "title": "COVID-19 Diagnosis Using Machine Learning Techniques",
-        "abstract": "There have been significant revolutions in various fields like medical and education on account of improved technological advancements. Furthermore, there have been numerous cases where Machine Learning has been of great help to healthcare by analyzing data and in decision making. Early diagnosis of Covid will help reduce the transmission rate and prevent an outbreak or slow down its spread. COVID-19 is a pandemic which is spreading really fast, affecting and killing millions around the globe and this needs to be addressed soon. Big data has been growing rapidly and there are many public datasets available related to COVID-19. ML could aid in the detection of the disease to bring the current chaotic situation under control. Various machine learning algorithms have been applied in this paper to build the most accurate model that can analyses symptoms of a person and predict if they are covid positive or not using a dataset from Kaggle. The performance of each model was analyzed according to different scoring metrics like accuracy measures, R squared, Precision, ROC curve and on how long the model took to be trained. It can be inferred from this paper that Decision Tree Classifier surpasses all the other algorithms by 98.29% accuracy.",
-        "year": 2022,
-        "referenceCount": 25,
-        "citationCount": 0,
-        "influentialCitationCount": 0,
-        "isOpenAccess": false,
-        "fieldsOfStudy": [
-          "Medicine"
-        ],
-        "authors": [
-          {
-            "authorId": "2165118607",
-            "name": "Yashaswini Yeramalli"
-          },
-          {
-            "authorId": "97987410",
-            "name": "S. Intodia"
-          },
-          {
-            "authorId": "5970591",
-            "name": "P. G. Shambharkar"
-          }
-        ]
-      }
-    },
-    {
-      "citingPaper": {
-        "paperId": "fc9acaadcc75f830e5684f1c14b7ed089c1955dd",
-        "title": "House Price Prediction Using Machine Learning",
-        "abstract": "Now-a-days everyone wish to live in the large cities but the competition in the market related to all the resources is increasing day by day. A middle-class family can’t afford the price of rent, food, water and electricity while surviving his family. The price of the flats in the city is increasing and there is so much of risk to predict the actual price of the house. Our research paper [1] will helps you to predict the price of the house to a good accuracy. The main motive of our research paper is to predict the price [2] of the house by analyzing the customer needs and their financial income. As we see when a client wants to purchase the house in the city he used to see three things within the city location, area and available resources around the society. Our research paper will helps the clients to know the actual price of the house and it will also helps the builders to know about the selling price that will fits the client needs.",
-        "year": 2021,
         "referenceCount": 55,
-        "citationCount": 34,
-        "influentialCitationCount": 0,
-        "isOpenAccess": false,
-        "fieldsOfStudy": [
-          "Computer Science"
-        ],
-        "authors": [
-          {
-            "authorId": "2144287577",
-            "name": "A. Singh"
-          },
-          {
-            "authorId": "2047714233",
-            "name": "Kartikey Rastogi"
-          },
-          {
-            "authorId": "2227285452",
-            "name": "Shashank Rajpoot"
-          }
-        ]
-      }
-    },
-    {
-      "citingPaper": {
-        "paperId": "01710028ab39f32d76eedfde7c3993bd20acff58",
-        "title": "AI Optics: Object recognition and caption generation for Blinds using Deep Learning Methodologies",
-        "abstract": "With the exponential development in the field of artificial intelligence in recent years, many researchers have focused their attention towards the topic of image caption generation. With this topic being that of arduous task and interest people take it as a challenge to perform to excel in the field of AI. Automatic generation of neutral language descriptions or ‘captions’ according to the composition detected in an image, i.e., scene understanding is the main part of image caption generation which can be achieved by combining both natural language processing along with computer vision. In this paper, we tackle the task of generating captions by using the concepts of Deep Learning.",
-        "year": 2021,
-        "referenceCount": 31,
         "citationCount": 0,
         "influentialCitationCount": 0,
-        "isOpenAccess": false,
-        "fieldsOfStudy": null,
-        "authors": [
-          {
-            "authorId": "1491243113",
-            "name": "Moksh Grover"
-          },
-          {
-            "authorId": "1491242752",
-            "name": "Rajat Rathi"
-          },
-          {
-            "authorId": "1491242694",
-            "name": "Chinkit Manchanda"
-          },
-          {
-            "authorId": "2100243176",
-            "name": "K. Garg"
-          },
-          {
-            "authorId": "93917870",
-            "name": "R. Beniwal"
-          }
-        ]
-      }
-    },
-    {
-      "citingPaper": {
-        "paperId": "8f0ab8a02127ac11531a7b7dfc1e220bf6625105",
-        "title": "Image Processing Based Billing System with Edge Computing",
-        "abstract": "The idea of this paper is to introduce an Image Detection based billing system which leverages edge computing. The idea for the study of this product comes observing the C-shops, where billing of products is generally done manually. All the shops are not technologically advanced or financially rich to use devices like OCR. Also, the mix-up of prices of different products also remains a problem in manual billing. To counter such issues the authors, propose the idea of an image-based billing system, which produces fast and accurate results and works with simple camera devices like a mobile phone. The specialty of this model is that it will differentiate the objects accurately but based on its size meaning that if there are two versions of the same product, one of small size (of price x) and the other of larger size (of price 2x) then it will successfully recognize them and add the price to the billing system accordingly. The precision of the model for object detection is 90%. It has been developed in the form of a web application. Thus, this paper proposes a fully developed software for billing in the local C-Shops.",
-        "year": 2020,
-        "referenceCount": 31,
-        "citationCount": 2,
-        "influentialCitationCount": 0,
-        "isOpenAccess": false,
+        "isOpenAccess": true,
         "fieldsOfStudy": [
           "Computer Science"
         ],
         "authors": [
           {
-            "authorId": "2023706253",
-            "name": "Shakshi Neha"
-          },
-          {
-            "authorId": "2066366931",
-            "name": "Saveta Kumari"
-          },
-          {
-            "authorId": "2021215747",
-            "name": "Ishika Raj"
-          },
-          {
-            "authorId": "2052180166",
-            "name": "D. Mishra"
-          },
-          {
-            "authorId": "2116287748",
-            "name": "Amanpreet Singh"
-          }
-        ]
-      }
-    },
-    {
-      "citingPaper": {
-        "paperId": "458f118cc944f6e0fe84aa3ad79b13d95a6d3532",
-        "title": "Hand Written Digit Recognition using Machine Learning",
-        "abstract": "Hand-written character and digit recognition have been one of the most exigent and engrossing field of pattern recognition and image processing. The main aim of this paper is to demonstrate and represent the work which is related to hand-written digit recognition. The hand-written digit recognition is a very exigent task. In this recognition task, the numbers are not accurately written or scripted as they differ in shape or size; due to which the feature extraction and segmentation of hand-written numerical script is arduous. The vertical and horizontal projections methods are used for the purpose of segmentation in the proposed work. SVM is applied for recognition and classification, while Convex hull algorithm is applied for feature extraction.",
-        "year": 2020,
-        "referenceCount": 29,
-        "citationCount": 10,
-        "influentialCitationCount": 0,
-        "isOpenAccess": false,
-        "fieldsOfStudy": [
-          "Computer Science"
-        ],
-        "authors": [
-          {
-            "authorId": "16336801",
-            "name": "R. Sethi"
-          },
-          {
-            "authorId": "1491234510",
-            "name": "I. Kaushik"
-          }
-        ]
-      }
-    },
-    {
-      "citingPaper": {
-        "paperId": "7a2e42fbd89f58afaa2f32b1cf417c9a4b7b07a6",
-        "title": "Producing Energy Using Blind Man Stick",
-        "abstract": "We all are familiar with the problems a blind person faces while performing several daily life activities. These problems are generally related to walking on roads, walking on ramps, movement in staircases, looking for path in crowded streets and market places and many other situations. Of course, many of us come ahead to help them by guiding their way, but sometimes it becomes a matter of self-respect, or say, the person is not willing to take help from others or even it is possible that nobody may be available to help. Think of a situation when a blind person is alone and an Electronic Travel Aid Stick suddenly stops working due to a completely discharged battery system. This paper aims to build a device that can generate that much amount of energy that is required to run the electronic systems efficiently so that it can prevent visually impaired people from suffering in difficult situations.",
-        "year": 2020,
-        "referenceCount": 29,
-        "citationCount": 1,
-        "influentialCitationCount": 0,
-        "isOpenAccess": false,
-        "fieldsOfStudy": [
-          "Computer Science"
-        ],
-        "authors": [
-          {
-            "authorId": "1750925303",
-            "name": "Depender Kumar Soni"
-          },
-          {
-            "authorId": "46910850",
-            "name": "Nikhil Sharma"
-          },
-          {
-            "authorId": "1491234510",
-            "name": "I. Kaushik"
-          },
-          {
-            "authorId": "144907851",
-            "name": "B. Bhushan"
-          }
-        ]
-      }
-    },
-    {
-      "citingPaper": {
-        "paperId": "71353490531d32a13059e279897ef2c96b3a568b",
-        "title": "A Green 6G Network Era: Architecture and Propitious Technologies",
-        "abstract": null,
-        "year": 2021,
-        "referenceCount": 34,
-        "citationCount": 3,
-        "influentialCitationCount": 0,
-        "isOpenAccess": false,
-        "fieldsOfStudy": [
-          "Computer Science"
-        ],
-        "authors": [
-          {
-            "authorId": "2067928166",
-            "name": "Sukriti Goyal"
-          },
-          {
-            "authorId": "49933301",
-            "name": "Nikhil Sharma"
-          },
-          {
-            "authorId": "1491234510",
-            "name": "I. Kaushik"
-          },
-          {
-            "authorId": "144907851",
-            "name": "B. Bhushan"
-          },
-          {
-            "authorId": "2116162716",
-            "name": "N. Kumar"
-          }
-        ]
-      }
-    },
-    {
-      "citingPaper": {
-        "paperId": "00df55af1790fa61469e0d7b481469a027332f42",
-        "title": "Sentiment Analysis on Images Using Convolutional Neural Network",
-        "abstract": null,
-        "year": 2021,
-        "referenceCount": 28,
-        "citationCount": 0,
-        "influentialCitationCount": 0,
-        "isOpenAccess": false,
-        "fieldsOfStudy": [
-          "Computer Science"
-        ],
-        "authors": [
-          {
-            "authorId": "2054923",
-            "name": "Ramandeep Singh Kathuria"
-          },
-          {
-            "authorId": "48423616",
-            "name": "S. Gautam"
-          },
-          {
-            "authorId": "2120295034",
-            "name": "Anup Singh"
-          },
-          {
-            "authorId": "2155390837",
-            "name": "A. Singh"
-          },
-          {
-            "authorId": "1725413308",
-            "name": "N. Yadav"
+            "authorId": "2244393800",
+            "name": "He Yan"
           }
         ]
       }

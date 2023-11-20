@@ -1,11 +1,13 @@
 {% extends "base.html" %}
 {% block content %}
-<h1>Papers Search</h1>
-<div id="inputBox">
-    <form method="POST">
-        <label>Search</label>
-        <input type="text" name="text" placeholder="title or keyword">
-        <input type="submit" value="Submit">
-    </form>
+<div class = "search-box">
+    <h1>Papers Search</h1>
+    <div class="input-box">
+        <form method="POST" class="post-input-box">
+            <label>Search</label>
+            <input type="text" name="text" placeholder="title or keyword">
+            <input type="submit" value="Submit">
+        </form>
+    </div>
 </div>
 {% endblock %}
