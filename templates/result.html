@@ -4,12 +4,15 @@
     {% for post in posts %}
     <div id = "{{posts.paperId}}" class = "result">
         <ul class = "result-row">
-            <li><b>Title</b> : {{post.title}}</li>
-            <li><b>Year</b> : {{post.year}}</li>
-            <li><b>ReferenceCount</b> : {{post.referenceCount}}</li>
-            <li><b>CitationCount</b> : {{post.citationCount}}</li>
-            <li><b>InfluentialCitationCount</b> : {{post.influentialCitationCount}}</li>
-            <li><b>Abstract</b> <br> {{post.abstract}}</li>
+            <li><b class="bold-font">Title</b> : {{post.title}}</li>
+            <li><b class="bold-font">Year</b> : {{post.year}}</li>
+            <li><b class="bold-font">ReferenceCount</b> : {{post.referenceCount}}</li>
+            <li><b class="bold-font">CitationCount</b> : {{post.citationCount}}</li>
+            <li><b class="bold-font">InfluentialCitationCount</b> : {{post.influentialCitationCount}}</li>
+            <li><b class="bold-font">Abstract</b> <br> {{post.abstract}}</li>
+            <div class="url-div">
+                <a href="{{post.url}}" role="button" class="go_to_button"  target="_blank" rel="noopener noreferrer">Go Site</a>
+            </div>
             <a href="/result/{{post.paperId}}/citation" role="button"  class = "Citation_button" >Citation</a>
             <a href="/result/{{post.paperId}}/reference" role="button" class = "reference_button" >Reference</a>
         </ul>

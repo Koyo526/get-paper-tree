@@ -3,42 +3,12 @@
   "data": [
     {
       "citingPaper": {
-        "paperId": "cd6286188579aeff34ea83ae7f2055f80073f87f",
-        "title": "Research on the Rapid Recognition Method of Electric Bicycles in Elevators Based on Machine Vision",
-        "abstract": "People are gradually coming around to the idea of living a low-carbon lifestyle and using green transportation, and given the severe urban traffic congestion, electric bicycle commuting has taken over as the preferred mode of short-distance transportation for many. Since batteries are used to power electric bicycles, there are no greenhouse gas emissions while they are in use, which is more in line with the requirement for sustainable development around the world. The public has been increasingly concerned about the safety issues brought on by electric bicycles as a result of the industry’s quick development and the rapid increase in the number of electric bicycles worldwide. The unsafe operation of the elevator and the safety of the building have been seriously compromised by the unauthorized admission of electric bicycles into the elevator. To meet the need for fast detection and identification of electric bicycles in elevators, we designed a modified YOLOv5-based identification approach in this study. We propose the use of the EIoU loss function to address the occlusion problem in electric bicycle recognition. By considering the interaction ratio and overlap loss of the target frames, we are able to enhance localization accuracy and reduce the missed detection rate of occluded targets. Additionally, we introduce the CBAM attention mechanism in both the backbone and head of YOLOv5 to improve the expressive power of feature maps. This allows the model to prioritize important regions of the target object, leading to improved detection accuracy. Furthermore, we utilize the CARAFE operator during upsampling instead of the nearest operator in the original model. This enables our model to recover details and side information more accurately, resulting in finer sampling results. The experimental results demonstrate that our improved model achieves an mAP of 86.35 percent, a recall of 81.8 percent, and an accuracy of 88.0 percent. When compared to the original model under the same conditions, our improved YOLOv5 model shows an average detection accuracy increase of 3.49 percent, a recall increase of 5.6 percent, and an accuracy increase of 3.5 percent. Tests in application scenarios demonstrate that after putting the model on the hardware platform Jeston TX2 NX, stable and effective identification of electric bicycles can be accomplished.",
+        "paperId": "b3def070af1f3a28b87ab4e0539a762f0df90b4d",
+        "url": "https://www.semanticscholar.org/paper/b3def070af1f3a28b87ab4e0539a762f0df90b4d",
+        "title": "Intriguing Properties of Diffusion Models: A Large-Scale Dataset for Evaluating Natural Attack Capability in Text-to-Image Generative Models",
+        "abstract": "Denoising probabilistic diffusion models have shown breakthrough performance that can generate more photo-realistic images or human-level illustrations than the prior models such as GANs. This high image-generation capability has stimulated the creation of many downstream applications in various areas. However, we find that this technology is indeed a double-edged sword: We identify a new type of attack, called the Natural Denoising Diffusion (NDD) attack based on the finding that state-of-the-art deep neural network (DNN) models still hold their prediction even if we intentionally remove their robust features, which are essential to the human visual system (HVS), by text prompts. The NDD attack can generate low-cost, model-agnostic, and transferrable adversarial attacks by exploiting the natural attack capability in diffusion models. Motivated by the finding, we construct a large-scale dataset, Natural Denoising Diffusion Attack (NDDA) dataset, to systematically evaluate the risk of the natural attack capability of diffusion models with state-of-the-art text-to-image diffusion models. We evaluate the natural attack capability by answering 6 research questions. Through a user study to confirm the validity of the NDD attack, we find that the NDD attack can achieve an 88% detection rate while being stealthy to 93% of human subjects. We also find that the non-robust features embedded by diffusion models contribute to the natural attack capability. To confirm the model-agnostic and transferrable attack capability, we perform the NDD attack against an AD vehicle and find that 73% of the physically printed attacks can be detected as a stop sign. We hope that our study and dataset can help our community to be aware of the risk of diffusion models and facilitate further research toward robust DNN models.",
         "year": 2023,
-        "referenceCount": 30,
-        "citationCount": 0,
-        "influentialCitationCount": 0,
-        "isOpenAccess": true,
-        "fieldsOfStudy": null,
-        "authors": [
-          {
-            "authorId": "2240341340",
-            "name": "Zhike Zhao"
-          },
-          {
-            "authorId": "2240140653",
-            "name": "Songying Li"
-          },
-          {
-            "authorId": "2240137712",
-            "name": "Caizhang Wu"
-          },
-          {
-            "authorId": "2240473923",
-            "name": "Xiaobing Wei"
-          }
-        ]
-      }
-    },
-    {
-      "citingPaper": {
-        "paperId": "1b4b8f6a5c3bdc57d4a5136240414de4e50a60a4",
-        "title": "The Analysis of Tourist Satisfaction Integrating the Artistic Intelligence Convolutional Neural Network and Internet of Things Technology",
-        "abstract": "Aiming at the limitations of existing fire detection technology and the multi-dimensional challenge of tourist satisfaction analysis, this study proposes a series of innovative methods and models. Regarding fire detection, Depth Separable Convolution (DSC) and multi-scale detection structure are introduced to improve the You Only Look Once version 3 (YOLOv3) model. Moreover, the DSC-Anchor-Isoft-Non Maximum Suppression-YOLO (DAI-YOLO) model is implemented for the fire detection of scenic spots. The experimental results show that the precision, recall, and average precision of the DAI-YOLO model are 92.1%, 84.2%, and 84.6%, respectively, compared with other models, a minimum increase of 4.1%, 8.8%, and 6.0%, with higher detection accuracy and performance. Based on the analysis of tourist satisfaction, a comprehensive index system is constructed using the grounded theory of text mining, and emotion analysis is integrated into the satisfaction evaluation to reveal tourists’ evaluation of scenic spots more comprehensively. According to the analysis, the environmental factor receives the highest satisfaction rating, reaching a positive rate of 98.78%. However, the satisfaction evaluation of scenic spot management is relatively low, accounting for 6.06% of the negative evaluation. The importance-satisfaction analysis reveals that the key factors affecting tourist satisfaction are traffic level, scenic spot tickets, and service. The results of this study provide valuable reference for the managers and researchers of scenic spots and are expected to contribute to the construction of a safer and more satisfying tourism experience.",
-        "year": 2023,
-        "referenceCount": 55,
+        "referenceCount": 53,
         "citationCount": 0,
         "influentialCitationCount": 0,
         "isOpenAccess": true,
@@ -47,8 +17,74 @@
         ],
         "authors": [
           {
-            "authorId": "2244393800",
-            "name": "He Yan"
+            "authorId": "145364206",
+            "name": "Takami Sato"
+          },
+          {
+            "authorId": "2235823008",
+            "name": "Justin Yue"
+          },
+          {
+            "authorId": "2236031372",
+            "name": "Nanze Chen"
+          },
+          {
+            "authorId": "2152169867",
+            "name": "Ningfei Wang"
+          },
+          {
+            "authorId": "2143841041",
+            "name": "Qi Alfred Chen"
+          }
+        ]
+      }
+    },
+    {
+      "citingPaper": {
+        "paperId": "2a89dbafb45e4f811114685a6327558bdb4d1141",
+        "url": "https://www.semanticscholar.org/paper/2a89dbafb45e4f811114685a6327558bdb4d1141",
+        "title": "Physical Adversarial Attack meets Computer Vision: A Decade Survey",
+        "abstract": "Despite the impressive achievements of Deep Neural Networks (DNNs) in computer vision, their vulnerability to adversarial attacks remains a critical concern. Extensive research has demonstrated that incorporating sophisticated perturbations into input images can lead to a catastrophic degradation in DNNs' performance. This perplexing phenomenon not only exists in the digital space but also in the physical world. Consequently, it becomes imperative to evaluate the security of DNNs-based systems to ensure their safe deployment in real-world scenarios, particularly in security-sensitive applications. To facilitate a profound understanding of this topic, this paper presents a comprehensive overview of physical adversarial attacks. Firstly, we distill four general steps for launching physical adversarial attacks. Building upon this foundation, we uncover the pervasive role of artifacts carrying adversarial perturbations in the physical world. These artifacts influence each step. To denote them, we introduce a new term: adversarial medium. Then, we take the first step to systematically evaluate the performance of physical adversarial attacks, taking the adversarial medium as a first attempt. Our proposed evaluation metric, hiPAA, comprises six perspectives: Effectiveness, Stealthiness, Robustness, Practicability, Aesthetics, and Economics. We also provide comparative results across task categories, together with insightful observations and suggestions for future research directions.",
+        "year": 2022,
+        "referenceCount": 234,
+        "citationCount": 15,
+        "influentialCitationCount": 3,
+        "isOpenAccess": true,
+        "fieldsOfStudy": [
+          "Computer Science"
+        ],
+        "authors": [
+          {
+            "authorId": "2186749480",
+            "name": "Hui Wei"
+          },
+          {
+            "authorId": "2112388769",
+            "name": "Hao Tang"
+          },
+          {
+            "authorId": "2100723008",
+            "name": "Xuemei Jia"
+          },
+          {
+            "authorId": "5731610",
+            "name": "Han-Bing Yu"
+          },
+          {
+            "authorId": "2186828480",
+            "name": "Zhubo Li"
+          },
+          {
+            "authorId": "2108315911",
+            "name": "Zhixiang Wang"
+          },
+          {
+            "authorId": "2128750265",
+            "name": "Shin’ichi Satoh"
+          },
+          {
+            "authorId": "50219447",
+            "name": "Zheng Wang"
           }
         ]
       }

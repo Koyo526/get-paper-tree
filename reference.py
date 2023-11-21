@@ -7,9 +7,10 @@ from requests.adapters import HTTPAdapter
 class Reference():
     def __init__(self,id):
         self.paperId = id
+        self.headers = {"""YOUR API KEY"""}
         self.endpoint = f'https://api.semanticscholar.org/graph/v1/paper/{self.paperId}/references'
         self.fields = ('title', 'year', 'referenceCount', 'citationCount','influentialCitationCount',
-                       'isOpenAccess', 'fieldsOfStudy', 'authors','abstract')
+                       'isOpenAccess', 'fieldsOfStudy', 'authors','abstract','url')
         self.params = {
             'fields': ','.join(self.fields),
             'limit': 10
@@ -20,7 +21,7 @@ class Reference():
             session = requests.Session()
             retries = Retry(total=5,backoff_factor=1,status_forcelist=[500, 502, 503, 504]) 
             session.mount("https://", HTTPAdapter(max_retries=retries))
-            res = session.get(url=self.endpoint, params=self.params,stream=True,timeout=(10.0, 30.0))
+            res = session.get(url=self.endpoint, params=self.params,stream=True,headers=self.headers,timeout=(10.0, 30.0))
             print(res)
             print(res.status_code)
             print(res.encoding)

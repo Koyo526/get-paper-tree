@@ -7,6 +7,8 @@ from search import Search
 import json
 from citation import Citation
 from reference import Reference
+import smtplib
+from email.mime.text import MIMEText
 
 app = Flask(__name__)
 

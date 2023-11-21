@@ -171,7 +171,20 @@ body {
   ul.result-row li {
     margin-bottom: 10px;
   }
-  
+.url-div{
+    text-align: left;
+    margin-bottom: 15px;
+}
+  .go_to_button{
+    display: inline;
+    margin-top: 20px;
+    padding: 5px 10px;
+    background-color:#008000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    text-align: center;
+  }
   .Citation_button,
   .reference_button {
     display: inline;
@@ -185,7 +198,66 @@ body {
   }
   
   .Citation_button:hover,
-  .reference_button:hover {
+  .reference_button:hover{
     background-color: #0056b3;
   }
-  
+  .go_to_button:hover {
+    background-color: #013c1c;
+  }
+.bold-font{
+    font-size: 20px;
+    font-weight: bold;
+}
+.search-box{
+    text-align: center;
+}
+.search-box-ttl{
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.about-us{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.about-comment{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.text-button {
+    width: 250px; /* 横幅指定 */
+    background-color: #333; /* 背景色 */
+    color: #fff; /* 文字色 */
+    font-weight: bold; /* 文字の太さ */
+    display: block; /* インライン要素をブロック要素に変更 */
+    margin: 0 auto; /* 中央寄せ */
+    font-size: 16px; /* 文字の大きさ */
+    padding: 15px; /* 内側の余白 */
+    border-radius: 100vh; /* 角丸指定 */
+    border: none;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    cursor: pointer;
+}
+.text-input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    max-width: 400px;
+}
+.input-label{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+    display: block;
+}

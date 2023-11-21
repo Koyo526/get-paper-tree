@@ -1,5 +1,16 @@
 {% extends "base.html" %}
 {% block content %}
+<script language="JavaScript" type="text/JavaScript">
+    function check(){
+        if(window.confirm('送信してよろしいですか？')){ 
+    return true;
+    }
+    else{
+        window.alert('キャンセルされました'); 
+        return false; /
+    }
+}
+</script>
 <div id = "content">
     <h1 class="about-ttl">Welcome to "Paper Tree Searcher"</h1>
     <h2 id = "about" class="about-us">About us</h2>
@@ -13,7 +24,7 @@
 </div>
 <div class = "contact" id = "contact">
     <h1 class="contact-ttl">Contact us</h1>
-    <form action="">
+    <form method="POST" onsubmit="check()">
         <table class="contact-table">
             <tr>
                 <th class="contact-item">Name</th>
@@ -37,5 +48,6 @@
         <input class="contact-submit" type="submit" value="Submit" />
     </form>
 </div>
+
 
 {% endblock %}

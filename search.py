@@ -8,8 +8,9 @@ class Search():
     def __init__(self,words):
         self.endpoint = 'https://api.semanticscholar.org/graph/v1/paper/search'
         self.keyword = words
+        self.headers = {"""YOUR API KEY"""}
         self.fields = ('title', 'year', 'referenceCount', 'citationCount','influentialCitationCount',
-                       'isOpenAccess', 'fieldsOfStudy', 'authors','abstract')
+                       'isOpenAccess', 'fieldsOfStudy', 'authors','abstract','url')
         self.params = {
             'query': self.keyword,
             'fields': ','.join(self.fields),
@@ -24,7 +25,7 @@ class Search():
             session = requests.Session()
             retries = Retry(total=5,backoff_factor=1,status_forcelist=[500, 502, 503, 504]) 
             session.mount("https://", HTTPAdapter(max_retries=retries))
-            res = session.get(url=self.endpoint, params=self.params,stream=True,timeout=(10.0, 30.0))
+            res = session.get(url=self.endpoint, params=self.params,stream=True,headers=self.headers,timeout=(10.0, 30.0))
             print(res.status_code)
             print(res.encoding)
             print(res.raise_for_status())

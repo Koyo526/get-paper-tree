@@ -1,10 +1,11 @@
 {
-  "total": 389246,
+  "total": 389337,
   "offset": 0,
   "next": 10,
   "data": [
     {
       "paperId": "1b33d1d8f2a2369341adbfe39d17c28b95a53b72",
+      "url": "https://www.semanticscholar.org/paper/1b33d1d8f2a2369341adbfe39d17c28b95a53b72",
       "title": "Medical Images Registration Concepts in the Context of Following Software Involving [ Simpleelastix+imageai ] for Iot/hpc Heterogeneous Environment/s – an Interesting Investigation Using Ai+python.",
       "abstract": "Medical Images Registration Concepts in the Context of Following Software involving [ SimpleElastix+IMAGEAI ] for IoT/HPC Heterogeneous Environment/s – An Interesting Investigation Using AI+Python. [ Exploring Simple Elastix : Medical Image Registration Library + ImageAI -Python based AI Library ]",
       "year": 2019,
@@ -24,6 +25,7 @@
     },
     {
       "paperId": "4ec51ffbd6732ec827850ef72b71e3cdb1e76250",
+      "url": "https://www.semanticscholar.org/paper/4ec51ffbd6732ec827850ef72b71e3cdb1e76250",
       "title": "Imageai Interaction with Imagej Via Jython Plugin/jikesrvm in the Context of Advanced Image Processing and Analysis – a Useful Insight Into the Promising World of Ai,python & Java Based Image Processing Informatics Framework.",
       "abstract": "IMAGEAI Interaction with ImageJ via Jython Plugin/JikesRVM in the context of Advanced Image Processing and Analysis – A Useful Insight into the Promising World of AI,Python & Java Based Image Processing Informatics Framework.",
       "year": 2018,
@@ -43,6 +45,7 @@
     },
     {
       "paperId": "2a1a386130b77c6de153242965a164f7476bfb2c",
+      "url": "https://www.semanticscholar.org/paper/2a1a386130b77c6de153242965a164f7476bfb2c",
       "title": "Raspberry Pi (Python AI) for Plant Disease Detection",
       "abstract": "The diagnosis of diseases at an early stage is the main goal of this paper. We concentrate on image processing techniques in this research. This entails a range of processes ranging from taking a picture of the leaves to using Raspberry PI to diagnose the condition. The Raspberry PI is used to connect the camera to the display device, from which the data is sent to the cloud. Various procedures, such as acquisition, pre-processing, segmentation, and clustering, are used to examine the acquired images. As a result, the demand for labour in big farm areas is reduced. Also, the cost and effort are reduced, whereas productivity is increased. Various procedures, such as acquisition, pre-processing, segmentation, and clustering, are used to examine the acquired images. As a result, the demand for labour on huge farmlands is reduced. Costs and efforts are also minimized, while production is raised.",
       "year": 2022,
@@ -72,6 +75,7 @@
     },
     {
       "paperId": "458280b49041501fce751baca5696d971c09e78f",
+      "url": "https://www.semanticscholar.org/paper/458280b49041501fce751baca5696d971c09e78f",
       "title": "Practical Explainable AI Using Python: Artificial Intelligence Model Explanations Using Python-based Libraries, Extensions, and Frameworks",
       "abstract": null,
       "year": 2022,
@@ -89,11 +93,12 @@
     },
     {
       "paperId": "5013dd4a2551df4975145c234339d7fb94ecec7d",
+      "url": "https://www.semanticscholar.org/paper/5013dd4a2551df4975145c234339d7fb94ecec7d",
       "title": "Astropy: A community Python package for astronomy",
       "abstract": "We present the first public version (v0.2) of the open-source and community-developed Python package, Astropy. This package provides core astronomy-related functionality to the community, including support for domain-specific file formats such as flexible image transport system (FITS) files, Virtual Observatory (VO) tables, and common ASCII table formats, unit and physical quantity conversions, physical constants specific to astronomy, celestial coordinate and time transformations, world coordinate system (WCS) support, generalized containers for representing gridded as well as tabular data, and a framework for cosmological transformations and conversions. Significant functionality is under active development, such as a model fitting framework, VO client and server tools, and aperture and point spread function (PSF) photometry tools. The core development team is actively making additions and enhancements to the current code base, and we encourage anyone interested to participate in the development of future Astropy versions.",
       "year": 2013,
       "referenceCount": 36,
-      "citationCount": 6645,
+      "citationCount": 6648,
       "influentialCitationCount": 71,
       "isOpenAccess": true,
       "fieldsOfStudy": [
@@ -280,6 +285,7 @@
     },
     {
       "paperId": "0550fdccea50c070d73ff173748baab9bff6d7b7",
+      "url": "https://www.semanticscholar.org/paper/0550fdccea50c070d73ff173748baab9bff6d7b7",
       "title": "Explainable AI with Python",
       "abstract": null,
       "year": 2021,
@@ -303,6 +309,7 @@
     },
     {
       "paperId": "2030ab2b1e86f378afcbfe92389b6e0f0f313d6c",
+      "url": "https://www.semanticscholar.org/paper/2030ab2b1e86f378afcbfe92389b6e0f0f313d6c",
       "title": "Face Mask Detection Using AI through Python",
       "abstract": "The corona virus COVID-19 pandemic is causing a global health crisis so the effective protection methods is wearing a face mask in public areas according to the World Health Organization (WHO). The COVID-19 pandemic forced governments across the world to impose lockdown to prevent virus transmissions. Reports indicate that wearing facemasks while at work clearly reduces the risk of transmission. An efficient and economic approach of using AI to create a safe environment in a manufacturing setup. A hybrid model using deep and classical machine learning for face mask detection will be presented. A face mask detection dataset consists of with mask and without mask images, we are going to use OpenCV to do real-time face detection from a live stream via our webcam. We will use the dataset to build a COVID-19 face mask detector with computer vision using Python, OpenCV, and Tensor Flow and Keras. Our goal is to identify whether the person on image/video stream is wearing a face mask or not with the help of computer vision and deep learning. As a surveillance task performer, it can also detect a face along with a mask in motion. The method attains accuracy up to 95.77% and 94.58% respectively on two different datasets. We explore optimized values of parameters using the Sequential Convolutional Neural Network of Deep Learning model to detect the presence of masks correctly without causing over-fitting.",
       "year": 2021,
@@ -336,6 +343,7 @@
     },
     {
       "paperId": "9dc0a2f23fe3f17ab7035bdca295e39009e227e0",
+      "url": "https://www.semanticscholar.org/paper/9dc0a2f23fe3f17ab7035bdca295e39009e227e0",
       "title": "Development of a face-mask detection software using artificial intelligence (AI) in python for Covid-19 protection",
       "abstract": "Infectious diseases like Covid-19 transmits and contaminates via dispersal through aerial medium has become a serious issue nowadays that stimulated increasing the facemask usage. However, in densely populated countries it is very hard for law enforcing organizations to monitor the number of people wearing mask and those who are not wearing any in public. For this reason, a facemask detection model can be developed for security cameras in public places and surveil on people. In this research, researchers developed a prototype of facemask detector using python codes and artificial intelligence. Since Machine cannot understand human language, developers use different types of programming languages for training machine. Here, Python was used with the help of its packages to train models and two separate python files were developed to complete this research; the first one is to develop a mask detector and the other one to combine mask and face detector, combined together to develop facemask detector in real time. Data was collected, analyzed and visualized with python programming language, model was trained using ConvNet (Convolutional Neural Network) and finally an output was received from a raw input, which can detect mask in human face.",
       "year": 2021,
@@ -363,6 +371,7 @@
     },
     {
       "paperId": "a97ab7839888fe563f8f1fc7add057cbc8249510",
+      "url": "https://www.semanticscholar.org/paper/a97ab7839888fe563f8f1fc7add057cbc8249510",
       "title": "AI Body Language Decoder using MediaPipe and Python",
       "abstract": "Body language are visual languages produced by the movement of the hands, face and body. In this project we evaluate representations based on skeleton poses, as these are explainable, person-independent, privacy-preserving, low-Dimensional representations. Basically, skeletal representations generalize over an individual’s appearance and background, allowing us to focus on the recognition of motion. We present a real-time on-device body tracking pipeline that predicts hand skeleton and the whole-body notion. It is implemented via MediaPipe, a framework for building cross-platform ML solutions. We perform using pose estimation systems and analyze the applicability of the estimation systems to body language recognition by evaluating failure cases of the existing models. The proposed system and architecture demonstrate real-time inference and high prediction quality. Keywords― Body Landmarks, MediaPipe, Body Language, Prediction, Accuracy, Real-time on-device Tracking, Pose Estimation, Recognition.",
       "year": 2021,
@@ -384,6 +393,7 @@
     },
     {
       "paperId": "0decc164f10ff95596d47a97cd1fc2a5738f7d8f",
+      "url": "https://www.semanticscholar.org/paper/0decc164f10ff95596d47a97cd1fc2a5738f7d8f",
       "title": "AI-Toolbox: A C++ library for Reinforcement Learning and Planning (with Python Bindings)",
       "abstract": "This paper describes AI-Toolbox, a C++ software library that contains reinforcement learning and planning algorithms, and supports both single and multi agent problems, as well as partial observability. It is designed for simplicity and clarity, and contains extensive documentation of its API and code. It supports Python to enable users not comfortable with C++ to take advantage of the library’s speed and functionality. AI-Toolbox is free software, and is hosted online at https://github.com/Svalorzen/AI-Toolbox.",
       "year": 2020,
